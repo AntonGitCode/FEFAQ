@@ -2,7 +2,7 @@
 
 * [Общие вопросы](General/README.md)
 * [CSS](CSS/README.md)
-* Ещё CSS(CSSfaq/README.md)
+* [Ещё CSS](CSSfaq/README.md)
 * [Web API](WebAPI/README.md)
 ## JS  
 
