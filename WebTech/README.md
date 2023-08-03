@@ -1,0 +1,31 @@
+<h3>
+  <img src="../assets/WWW.png" width="16" height="16" />
+  <span>Web Technologies:</span>
+</h3>
+
+- [Что такое прогрессивный рендеринг?](https://youtu.be/IooJ3P2VUYs?t=26)
+- [Что такое прогрессивный SSR?](https://youtu.be/trriSYNrHw4?t=25)
+- [Что такое Progressive Web Application (PWA)?](https://youtu.be/XtQPrt8G0n8?t=76)
+- [Что такое кроссбраузерность?](https://youtu.be/kx3dR6ztICU?t=90)
+- [Что такое OSI модель?](https://youtu.be/-mWa7erZu64?t=461)
+- [Что такое поток документа?](https://youtu.be/trriSYNrHw4?t=102)
+- [Разница между адаптивным (adaptive) и отзывчивым (responsive) дизайнами?](https://youtu.be/1eIRTdgzHtw?t=233)
+- [Разница между Progressive Enhancement и Graceful Degradation?](https://youtu.be/rlWgI7AvV18?t=286)
+- [Что такое Веб-компоненты и какие технологии в них используются?](https://youtu.be/G4iYlbilozM?t=704)
+- [Особенности разработки мультиязычных сайтов?](https://youtu.be/yvOXvZ8aEFo?t=82)
+- [Что такое REST?](https://youtu.be/ovV8GhIkzBE?t=352)
+- [Что такое REST и RESTful api?](https://youtu.be/__neFkxAO9s?t=334)
+- [Принципы REST-архитектуры?](https://youtu.be/-mWa7erZu64?t=159)
+- [Что такое модель зрелости Ричардсона?](https://youtu.be/-mWa7erZu64?t=30)
+- [Основные уровни модели зрелости Ричардсона?](https://youtu.be/-mWa7erZu64?t=73)
+- [Назовите критические этапы рендеринга?](https://youtu.be/3NGkctg4lsE?t=31)
+- [Разница между layout, painting и compositing?](https://youtu.be/yvOXvZ8aEFo?t=209)
+- [Что такое Flash Of Unstyled Content (FOUC)? Как его избежать?](https://youtu.be/yvOXvZ8aEFo?t=164)
+- [Что такое History API в браузере?](https://youtu.be/XtQPrt8G0n8?t=352)
+- [Что такое веб-хранилище (web storage)?](https://youtu.be/XtQPrt8G0n8?t=406)
+- [Разница между `cookie`, `sessionStorage` и `localStorage`?](https://youtu.be/nvktMVFM0_M?t=604)
+- [Способы уменьшения времени загрузки веб-страницы?](https://youtu.be/nvktMVFM0_M?t=678)
+- [Что такое Core Web Vitals? Какие основные метрики туда входят?](https://youtu.be/DQ0BLu6rZYc?t=214)
+- [Расскажите о метриках Core Web Vitals?](https://youtu.be/DQ0BLu6rZYc?t=314)
+- [Разница между `preload`, `prefetch`, `preconnect` и `prerender`?](https://youtu.be/DQ0BLu6rZYc?t=410)
+- [Для чего нужен паттерн PRPL?](https://youtu.be/DQ0BLu6rZYc?t=519)
