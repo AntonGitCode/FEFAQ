@@ -1,6 +1,7 @@
 ## WebCore
 
 * [Общие вопросы](General/README.md)
+* [Web Technologies](WebTech/README.md)
 * [CSS](CSS/README.md)
 * [Ещё CSS](CSSfaq/README.md)
 * [Web API](WebAPI/README.md)
