@@ -1,7 +1,8 @@
 ## WebCore
 
 * [Общие вопросы](General/README.md)
-* [Вопросы по CSS](CSS/README.md)
+* [CSS](CSS/README.md)
+* Ещё CSS(CSSfaq/README.md)
 * [Web API](WebAPI/README.md)
 ## JS  
 
