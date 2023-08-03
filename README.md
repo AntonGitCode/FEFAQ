@@ -3,6 +3,7 @@
 * [Общие вопросы](General/README.md)
 * [Вопросы по CSS](CSS/README.md)
 * [Web API](WebAPI/README.md)
+## JS  
 
 * [Вопросы по JavaScript](JavaScript/README.md)
 * [Вопросы по тестированию](Testing/README.md)
