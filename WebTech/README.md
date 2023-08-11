@@ -240,8 +240,8 @@ class MyElement extends HTMLElement {
 ```
   
 _shadow dom_  
-Теневой DOM – это способ создать свой, изолированный, DOM для компонента.
-shadowRoot = elem.attachShadow({mode: open|closed}) – создаёт теневой DOM для elem. Если mode="open", он доступен через свойство elem.shadowRoot.
+Теневой DOM – это способ создать свой, изолированный, DOM для компонента.  
+shadowRoot = elem.attachShadow({mode: open|closed}) – создаёт теневой DOM для elem. Если mode="open", он доступен через свойство elem.shadowRoot.  
 Мы можем создать подэлементы внутри shadowRoot с помощью innerHTML или других методов DOM.  
   
 <h2>Способы уменьшения времени загрузки веб-страницы?</h2>  
