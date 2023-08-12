@@ -7,7 +7,7 @@
 - [Что такое прогрессивный SSR?](https://youtu.be/trriSYNrHw4?t=25)
 - [Что такое Progressive Web Application (PWA)?](#pwa)
 - [Что такое кроссбраузерность?](https://youtu.be/kx3dR6ztICU?t=90)
-- [Что такое OSI модель?](https://youtu.be/-mWa7erZu64?t=461)
+- [Что такое OSI модель?](#osi)
 - [Что такое поток документа?](https://youtu.be/trriSYNrHw4?t=102)
 - [Разница между адаптивным (adaptive) и отзывчивым (responsive) дизайнами?](https://youtu.be/1eIRTdgzHtw?t=233)
 - [Разница между Progressive Enhancement и Graceful Degradation?](https://youtu.be/rlWgI7AvV18?t=286)
@@ -162,6 +162,15 @@ export default function Page({ data }) {
 ```
 
 ```
+<a name="osi"></a> 
+<h2> Что такое OSI-моедль </h2>  
+
+<img src="https://github.com/AntonGitCode/FEFAQ/assets/117078390/3b9051ae-c74e-4aff-8979-fb766b8260c8" alt="Image Description" width="550">  
+
+![image](https://github.com/AntonGitCode/FEFAQ/assets/117078390/1db5424f-8699-433b-84f2-da4a9e962cd2)  
+  
+![image](https://github.com/AntonGitCode/FEFAQ/assets/117078390/73d0e38e-a301-4905-b077-58d1293e719b)
+
 <h2>Что такое кроссбраузерность?</h2>  
 
 **Кроссбраузерность** - это корректная адаптивная верстка для правильного отображения сайта или приложения в разных браузерах и на разных устройствах. 
