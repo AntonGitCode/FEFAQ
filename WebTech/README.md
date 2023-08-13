@@ -267,10 +267,10 @@ if (window.addEventListener) {
 
 **Веб-компоненты** - это технология, которая позволяет создавать многократно используемые компоненты в веб документах и приложениях, они поддерживаются браузерами напрямую и не требуют библиотек для работы.  
 
-_html templates_  
+**_html templates_**  
 Встроенный элемент <template> предназначен для хранения шаблона HTML. Браузер полностью игнорирует его содержимое, проверяя лишь синтаксис, но мы можем использовать этот элемент в JavaScript, чтобы создать другие элементы.  
 
-_html import_   
+**_html import_**   
 custom elements  
 ```
 class MyElement extends HTMLElement {  
@@ -280,7 +280,7 @@ class MyElement extends HTMLElement {
   }
 ```
   
-_shadow dom_  
+**_shadow dom_**  
 Теневой DOM – это способ создать свой, изолированный, DOM для компонента.  
 shadowRoot = elem.attachShadow({mode: open|closed}) – создаёт теневой DOM для elem. Если mode="open", он доступен через свойство elem.shadowRoot.  
 Мы можем создать подэлементы внутри shadowRoot с помощью innerHTML или других методов DOM.  
