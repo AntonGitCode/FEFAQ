@@ -166,7 +166,10 @@ export default function Page({ data }) {
 **float** и **position** (absolute, fixed, sticky) - вырывают элемент из нормального потока документа.   
 ```
 
-```  
+```
+пример кода:
+  
+создаем шаблон  
 ```html
 <template id="myComponent">
   <style>
