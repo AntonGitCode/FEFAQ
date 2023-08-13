@@ -303,21 +303,16 @@ class MyElement extends HTMLElement {
     super();
     // элемент создан
   }
-```
-```
-class MyComponent extends HTMLElement {
-  constructor() {
-    super();
-    // Обработчик события при клике на компонент
-    this.addEventListener('click', () => {
-      this.toggleColor();
-    });
+ connectedCallback() {
+    // браузер вызывает этот метод при добавлении элемента в документ
+    // (может вызываться много раз, если элемент многократно добавляется/удаляется)
   }
+}
 
 // Регистрируем пользовательский HTML-элемент
-customElements.define('my-component', MyComponent);
+customElements.define('my-component', MyElement);
 ```
-  
+
 После регистрации пользовательского элемента `my-component` с помощью метода `customElements.define`, мы можем использовать его в HTML-разметке:
   
 ```html
@@ -325,6 +320,7 @@ customElements.define('my-component', MyComponent);
   <my-component></my-component>
 </body>
 ```  
+**!** Имя пользовательского элемента должно содержать дефис -, например, my-element и super-button  
   
 **_shadow dom_**  
 Теневой DOM – это способ создать свой, изолированный, DOM для компонента.  
@@ -513,6 +509,7 @@ Google рекомендует, чтобы все три метрики Core Web 
 <a name="historyApi"></a>
 <h2>Что такое History API в браузере?</h2>
 
+  
 <a name="webstorage"></a>
 <h2>Что такое веб-хранилище (web storage)?</h2>
   
