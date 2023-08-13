@@ -93,6 +93,8 @@ SSR (**Server-Side Rendering**)
 
 <h2>Разница между SSR и SSG и CSR?</h2> 
 
+[почитать статью](https://inverser.pro/220-csr-ssr-ssg-kakaya-raznitsa-v-renderinge-stranitsy)  
+  
   CSR - **Client** Side Rendering. рендеринг приложения в браузере с помощью DOM.  
   SSR - **Server** Side Rendering. рендеринг клиентской части приложения на сервере.  
   SSG - **Static Site Generator**. генерация всех HTML страниц приложения в момент сборки.    
