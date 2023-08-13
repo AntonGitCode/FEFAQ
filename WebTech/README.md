@@ -540,7 +540,9 @@ window.location
 
   
 <a name="webstorage"></a>
-<h2>Что такое веб-хранилище (web storage)?</h2>
+<h2>Что такое веб-хранилище (web storage)?</h2>  
+
+Web Storage API -  это механизм, который позволяет веб-приложениям хранить данные на клиентской стороне, то есть на компьютере пользователя. Он предоставляет два объекта для хранения данных: localStorage и sessionStorage.
   
 <h2>Разница между cookie, sessionStorage и localStorage?</h2> 
 
