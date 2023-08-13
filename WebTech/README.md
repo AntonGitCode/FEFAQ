@@ -166,7 +166,27 @@ export default function Page({ data }) {
 **float** и **position** (absolute, fixed, sticky) - вырывают элемент из нормального потока документа.   
 ```
 
+```  
+```html
+<template id="myComponent">
+  <style>
+    /* стили компонента */
+  </style>
+  <div>
+    <!-- содержимое компонента -->
+  </div>
+</template>
+```  
+  
+склонировать шаблон и добавить его в Shadow DOM элемента:  
+  
+```javascript
+const template = document.querySelector('#myComponent');
+const clone = template.content.cloneNode(true);
+element.attachShadow({ mode: 'open' }).appendChild(clone);
 ```
+
+  
 <a name="adaptresp"></a>
 <h2>Разница между адаптивным(adaptive) и отзывчивым(responsive) дизайнами?</h2>  
 
