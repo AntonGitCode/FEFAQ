@@ -528,6 +528,16 @@ window.history.pushState(data, title [, url])
 data - Данные состояния истории. Эти данные можно получить затем в обработчике события popstate. Если дополнительные данные не требуются можно передавать null;  
 title - Заголовок страницы, который отобразится в окне браузер, так же можно передавать null;  
 url - URL, который должен отображаться в адресной строке.  
+
+``` 
+window.location
+```
+  
+![image](https://github.com/AntonGitCode/FEFAQ/assets/117078390/afc4fe0e-8850-4305-915a-40c109dab4d1)
+
+history.pushstate does not make a new HTTP call. it might attempt to load the URL later, for instance after the user restarts the browser.
+window.location.href = "url" navigates the browser to new location, so it does make a new http request. Note: exception is the case when you specify new url as hash fragment. Then window is just scrolled to corresponding anchor  
+
   
 <a name="webstorage"></a>
 <h2>Что такое веб-хранилище (web storage)?</h2>
