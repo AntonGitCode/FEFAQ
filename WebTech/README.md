@@ -134,9 +134,10 @@ export default function Page({ data }) {
 
 
 <img src="https://github.com/AntonGitCode/FEFAQ/assets/117078390/0520ea4b-c956-49d0-bdc7-25d5272958c6" alt="Image Description" width="550">  
-  
 **SPA** - Single Page Application. Одностраничное приложение - это веб-приложение или веб-сайт, использующий единственный HTML-документ как оболочку для всех веб-страниц и организующий взаимодействие с пользователем через динамически подгружаемые HTML, CSS, JavaScript, обычно посредством AJAX  
   
+<img src="https://github.com/AntonGitCode/FEFAQ/assets/117078390/adf3ccea-6d59-45d5-a770-94a1c5f88dfa" alt="Image Description" width="100%">  
+
 ```
 
 ```
