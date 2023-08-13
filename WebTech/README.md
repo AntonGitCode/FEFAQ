@@ -94,7 +94,7 @@ SSR (**Server-Side Rendering**)
 
 <h2>Разница между SSR и SSG и CSR?</h2> 
 
-[почитать статью](https://inverser.pro/220-csr-ssr-ssg-kakaya-raznitsa-v-renderinge-stranitsy) 
+[почитать статью](https://inverser.pro/220-csr-ssr-ssg-kakaya-raznitsa-v-renderinge-stranitsy)   
 [и эту статью](https://the-evening-code.com/posts/server-side-rendering-vs-static-site-generators)  
   
   CSR - **Client** Side Rendering. рендеринг приложения в браузере с помощью DOM.  
@@ -297,7 +297,7 @@ if (window.addEventListener) {
 Встроенный элемент <template> предназначен для хранения шаблона HTML. Браузер полностью игнорирует его содержимое, проверяя лишь синтаксис, но мы можем использовать этот элемент в JavaScript, чтобы создать другие элементы. Внутри тега `<template>` вы можете разместить HTML-код.   
   
 **_html import_**   
-custom elements  
+**_custom elements_**  
 ```
 class MyElement extends HTMLElement {  
   constructor() {  
@@ -305,6 +305,27 @@ class MyElement extends HTMLElement {
     // элемент создан
   }
 ```
+```
+class MyComponent extends HTMLElement {
+  constructor() {
+    super();
+    // Обработчик события при клике на компонент
+    this.addEventListener('click', () => {
+      this.toggleColor();
+    });
+  }
+
+// Регистрируем пользовательский HTML-элемент
+customElements.define('my-component', MyComponent);
+```
+  
+После регистрации пользовательского элемента `my-component` с помощью метода `customElements.define`, мы можем использовать его в HTML-разметке:
+  
+```html
+<body>
+  <my-component></my-component>
+</body>
+```  
   
 **_shadow dom_**  
 Теневой DOM – это способ создать свой, изолированный, DOM для компонента.  
