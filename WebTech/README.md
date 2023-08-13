@@ -93,7 +93,8 @@ SSR (**Server-Side Rendering**)
 
 <h2>Разница между SSR и SSG и CSR?</h2> 
 
-[почитать статью](https://inverser.pro/220-csr-ssr-ssg-kakaya-raznitsa-v-renderinge-stranitsy)  
+[почитать статью](https://inverser.pro/220-csr-ssr-ssg-kakaya-raznitsa-v-renderinge-stranitsy) 
+[и эту статью](https://the-evening-code.com/posts/server-side-rendering-vs-static-site-generators)  
   
   CSR - **Client** Side Rendering. рендеринг приложения в браузере с помощью DOM.  
   SSR - **Server** Side Rendering. рендеринг клиентской части приложения на сервере.  
@@ -138,6 +139,9 @@ export default function Page({ data }) {
 Основное отличие между SSR и SSG заключается в том, что:  
   - SSR генерирует страницы динамически на каждый запрос, всё происходит на сервере.  
   - а SSG генерирует страницы статически на этапе сборки проекта. все происходит на клиенте.    
+Т.е. Вы один раз на своём ПК сгенерировали страницы, загрузили их на сервер и он отдаёт просто статику. Т.е. не нужен НИ PHP, ни NodeJS, можно ставить nginx и всё.
+
+**-** вместо использования HTML и CSS, теперь мы используем современные инструменты, такие как React, Vue и Angular. То есть приложение, написанное на современных инструментах преобразуется в HTML, CSS и JavaScript с помощью транспиляторов, сборщиков пакетов и т.д.  
 
 
 <img src="https://github.com/AntonGitCode/FEFAQ/assets/117078390/0520ea4b-c956-49d0-bdc7-25d5272958c6" alt="Image Description" width="550">  
