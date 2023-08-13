@@ -186,8 +186,7 @@ export default function Page({ data }) {
 
 ```
 <a name="osi"></a> 
-<h2> Что такое OSI-моедль </h2>  
-Open Systems Interconnection <br>   
+<h2> Что такое OSI-модель Open Systems Interconnection</h2>  
   
 <img src="https://github.com/AntonGitCode/FEFAQ/assets/117078390/3b9051ae-c74e-4aff-8979-fb766b8260c8" alt="Image Description" width="550">  
 
