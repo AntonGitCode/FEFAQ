@@ -10,7 +10,7 @@
 - [Разница между `HTTP` и `HTTPS`?](3.md)
 - [Разница между `HTTP/1`  и `HTTP/2`?](3.md)
 - [Как работает мультиплексирование в `HTTP/2`?](3.md)
-- [Что такое “трехстороннее рукопожатие” (Triple handshake)?](https://youtu.be/__neFkxAO9s?t=409)
+- [Что такое “трехстороннее рукопожатие” (Triple handshake)?](4.md)
 - [Разница между `PUT`- и `POST`-запросами?](https://youtu.be/ngyOYuTrUk8?t=29)
 - [Разница между протоколами `TCP` и `UDP`?](https://youtu.be/trriSYNrHw4?t=234)
 - [Что такое `WebSocket`? В чем принцип его работы?](https://youtu.be/yvOXvZ8aEFo?t=237)
