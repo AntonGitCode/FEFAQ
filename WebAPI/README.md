@@ -15,7 +15,7 @@
 - [Разница между протоколами `TCP` и `UDP`?](5.md)
 - [Что такое `WebSocket`? В чем принцип его работы?](6.md)
 - [Разница между Long-Polling, Websockets и Server-Sent Events?](7.md)
-- [Как работает `JSONP`?](https://youtu.be/trriSYNrHw4?t=178)
+- [Как работает `JSONP`?](8.md)
 - [Что такое IndexedDB в браузере? Преимущества IndexedDB?](https://youtu.be/V-m0sQ-hW58?t=653)
 - [Что такое Service Workers?](https://youtu.be/V-m0sQ-hW58?t=727)
 - [Что такое Web Workers?](https://youtu.be/V-m0sQ-hW58?t=811)
