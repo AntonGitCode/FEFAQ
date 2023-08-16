@@ -310,6 +310,7 @@ if (window.addEventListener) {
 Встроенный элемент <template> предназначен для хранения шаблона HTML. Браузер полностью игнорирует его содержимое, проверяя лишь синтаксис, но мы можем использовать этот элемент в JavaScript, чтобы создать другие элементы. Внутри тега `<template>` вы можете разместить HTML-код.   
   
 **_html import_**   
+  
 **_custom elements_**  
 ```
 class MyElement extends HTMLElement {  
