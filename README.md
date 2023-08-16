@@ -5,6 +5,8 @@
 * [CSS](CSS/README.md)
 * [Ещё CSS](CSSfaq/README.md)
 * [Web API](WebAPI/README.md)
+* [HTML](HTML/README.md)
+  
 ## JS  
 
 * [Вопросы по JavaScript](JavaScript/README.md)
