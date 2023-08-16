@@ -33,7 +33,7 @@
 - [В каком случае лучше использовать `translate()` вместо абсолютного позиционирования?](https://youtu.be/xIGp2FCxqj0?t=543)
 - [Что такое плавающие элементы (floats)? Как они работают?](https://youtu.be/xIGp2FCxqj0?t=610)
 - [Расскажите о свойстве `text-rendering`?](https://youtu.be/nbWY5W-9OEo?t=35)
-- [Расскажите о свойстве `text-decoration-skip-ink`?](https://youtu.be/nbWY5W-9OEo?t=156)
+- [Расскажите о свойстве `text-decoration-skip-ink`?](https://doka.guide/css/text-decoration-skip-ink/)
 - [Расскажите о свойстве `pointer-events`?](https://youtu.be/J6CgOSKFOlw?t=336)
 - [Расскажите о свойстве `outline`?](https://youtu.be/3NGkctg4lsE?t=498)
 - [Расскажите о свойстве `scrollbar-gutter`?](https://youtu.be/DQ0BLu6rZYc?t=29)
