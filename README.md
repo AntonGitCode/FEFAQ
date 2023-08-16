@@ -15,10 +15,12 @@
 С ним браузер пользователя получает разрешения на доступ к выбранным ресурсам, если домен сайта и домен запрашиваемого ресурса отличаются.  
 [CORS](https://github.com/AntonGitCode/FEFAQ/blob/master/General/16.md)  
     
-**REST** [читать](https://github.com/AntonGitCode/FEFAQ/tree/master/WebTech#rest) Representational State Transfer - архитектурный стиль API.  
+### REST 
+[читать](https://github.com/AntonGitCode/FEFAQ/tree/master/WebTech#rest) Representational State Transfer - архитектурный стиль API.  
 стиль общения компонентов, при котором все необходимые данные указываются в параметрах запроса — всё взаимодействие между клиентом и сервером сводится к 4 операциям (CRUD).
   
-**OSI** [читать](https://github.com/AntonGitCode/FEFAQ/blob/master/WebTech/README.md#ossi)
+### OSI 
+[читать](https://github.com/AntonGitCode/FEFAQ/blob/master/WebTech/README.md#ossi)
 
 **прогрессивный рендер** [читать](https://github.com/AntonGitCode/FEFAQ/blob/master/WebTech/README.md#prorender)   
   **прогрессивные SSR** [читать](https://github.com/AntonGitCode/FEFAQ/blob/master/WebTech/README.md#ssr)  
@@ -43,7 +45,7 @@ WebSocket -
   - Layered system - ни клиент, ни сервер не должны знать о том, как происходит цепочка вызовов дальше своих прямых соседей.
   - Code on demand - Идея передачи некоторого исполняемого кода от сервера клиенту.
 
-**Critical Rendering**  
+### Critical Rendering  
 
 `Парсинг HTML и создание DOM`  
 `DOM` - ответы в виде HTML превращаются в токены, которые в свою очередь превращаются в узлы и в последующем формируют DOM дерево.  
