@@ -22,11 +22,9 @@
   **прогрессивные SSR** [читать](https://github.com/AntonGitCode/FEFAQ/blob/master/WebTech/README.md#ssr)  
 
 **веб-компоненты** - переисп комп ,с брауз напрямую без исп библ [читать](https://github.com/AntonGitCode/FEFAQ/blob/master/WebTech/README.md#webcomp)  
-
+**Поток** - это принцип организации элементов на странице, при отсутствии стилей - [читать](https://github.com/AntonGitCode/FEFAQ/blob/master/WebTech/README.md#potok)  
 
 **ARIA** [читать](https://github.com/AntonGitCode/FEFAQ/blob/master/General/14.md)  
-
-**Поток** - это принцип организации элементов на странице, при отсутствии стилей - [читать](https://github.com/AntonGitCode/FEFAQ/blob/master/WebTech/README.md#potok)  
   
 **6 принципов REST**:  
   - Клиент-серверная архитектура
