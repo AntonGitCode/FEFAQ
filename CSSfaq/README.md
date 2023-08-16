@@ -1,4 +1,5 @@
 [типы инпутов](#inputs)  
+[z-index контекст наложения](https://github.com/AntonGitCode/FEFAQ/blob/master/CSS/4.md)  
 
 - [Что такое CSS? И для чего он используется?](#wtfcss)
 - [Что такое CSS-правило?](#cssrule)
