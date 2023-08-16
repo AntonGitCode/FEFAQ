@@ -18,6 +18,8 @@
   
 **OSI** [читать](https://github.com/AntonGitCode/FEFAQ/blob/master/WebTech/README.md#osi)
 
+**прогрессивный рендер** [читать](https://github.com/AntonGitCode/FEFAQ/blob/master/WebTech/README.md#prorender)  
+  
 **ARIA** [читать](https://github.com/AntonGitCode/FEFAQ/blob/master/General/14.md)  
 
   
