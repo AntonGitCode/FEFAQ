@@ -16,7 +16,10 @@
     
 **REST**
   
-  
+**OSI** [читать](https://github.com/AntonGitCode/FEFAQ/blob/master/WebTech/README.md#osi)
+
+<img src="https://github.com/AntonGitCode/FEFAQ/assets/117078390/3b9051ae-c74e-4aff-8979-fb766b8260c8" alt="Image Description" width="550">  
+
 ## JS  
 
 * [Вопросы по JavaScript](JavaScript/README.md)
