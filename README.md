@@ -21,7 +21,8 @@
 
 **прогрессивный рендер** [читать](https://github.com/AntonGitCode/FEFAQ/blob/master/WebTech/README.md#prorender)   
   **прогрессивные SSR** [читать](https://github.com/AntonGitCode/FEFAQ/blob/master/WebTech/README.md#ssr)  
-
+  SSR, CSR, SSG [читать](https://github.com/AntonGitCode/FEFAQ/blob/master/WebTech/README.md#diff)  
+  
 **веб-компоненты** - переисп комп ,с брауз напрямую без исп библ [читать](https://github.com/AntonGitCode/FEFAQ/blob/master/WebTech/README.md#webcomp)  
 **Поток** - это принцип организации элементов на странице, при отсутствии стилей - [читать](https://github.com/AntonGitCode/FEFAQ/blob/master/WebTech/README.md#potok)  
 
@@ -32,7 +33,7 @@
 
 **ARIA** [читать](https://github.com/AntonGitCode/FEFAQ/blob/master/General/14.md)  
        
-**6 принципов REST**:  
+**6 принципов REST**: 
   - Клиент-серверная архитектура - - п добиться масштабируемости.
   - Stateless - сервер не хранит инфу о сессии клиента
   - Кэширование - сервер при след запросе клиента выдаст из кэша (идемпотентность)
