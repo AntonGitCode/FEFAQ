@@ -6,7 +6,8 @@
 * [Ещё CSS](CSSfaq/README.md)
 * [Web API](WebAPI/README.md)
 * [HTML](HTML/README.md)
-  
+
+[crp]()
 ### CORS  
 (Cross-Origin Resource Sharing, англ. «совместное использование ресурсов разных источников»)
   
