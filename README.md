@@ -14,7 +14,8 @@
 С ним браузер пользователя получает разрешения на доступ к выбранным ресурсам, если домен сайта и домен запрашиваемого ресурса отличаются.  
 [CORS](https://github.com/AntonGitCode/FEFAQ/blob/master/General/16.md)  
     
-**REST**
+**REST** [читать](https://github.com/AntonGitCode/FEFAQ/tree/master/WebTech#rest) Representational State Transfer - архитектурный стиль API.  
+стиль общения компонентов, при котором все необходимые данные указываются в параметрах запроса — всё взаимодействие между клиентом и сервером сводится к 4 операциям (CRUD).
   
 **OSI** [читать](https://github.com/AntonGitCode/FEFAQ/blob/master/WebTech/README.md#osi)
 
