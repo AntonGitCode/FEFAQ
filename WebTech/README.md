@@ -1,7 +1,5 @@
-<h3>
-  <img src="../assets/WWW.png" width="16" height="16" />
-  <span>Web Technologies:</span>
-</h3>
+<h3>Web Technologies</h3>  
+
 - [Что такое DOM?](#dom)
 - [Что такое прогрессивный рендеринг?](#prorender)  
 - [Что такое прогрессивный SSR?](#ssr)
