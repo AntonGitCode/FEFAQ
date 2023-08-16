@@ -23,7 +23,7 @@
    
 **ARIA** [читать](https://github.com/AntonGitCode/FEFAQ/blob/master/General/14.md)  
 
-  
+**Поток** - это принцип организации элементов на странице, при отсутствии стилей - [читать]  
 <img src="https://github.com/AntonGitCode/FEFAQ/assets/117078390/3b9051ae-c74e-4aff-8979-fb766b8260c8" alt="Image Description" width="550">  
 
 
