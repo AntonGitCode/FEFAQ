@@ -32,7 +32,7 @@
 **ARIA** [читать](https://github.com/AntonGitCode/FEFAQ/blob/master/General/14.md)  
    
  [Richardson](https://github.com/AntonGitCode/FEFAQ/blob/master/WebTech/README.md#richardson)
-  <br>
+  
 **preload, prefetch, preconnect и prerender**  
   
 **preload** - говорит браузеру как можно скорее загрузить и кэшировать ресурс.  
