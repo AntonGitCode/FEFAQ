@@ -7,7 +7,8 @@
 * [Web API](WebAPI/README.md)
 * [HTML](HTML/README.md)
 
-[crp]()
+[csp](https://github.com/AntonGitCode/FEFAQ/blob/master/crp.md)  
+
 ### CORS  
 (Cross-Origin Resource Sharing, англ. «совместное использование ресурсов разных источников»)
   
