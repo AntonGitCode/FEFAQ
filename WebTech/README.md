@@ -6,7 +6,7 @@
 - [Разница между SSR и SSG и CSR?](#diff)
 - [Что такое Progressive Web Application (PWA)?](#pwa)
 - [Что такое кроссбраузерность?](#crossbr)
-- [Что такое OSI модель?](#osi)
+- [Что такое OSI модель?](#ossi)
 - [Что такое поток документа?](#potok)
 - [Разница между адаптивным (adaptive) и отзывчивым (responsive) дизайнами?](#adaptresp)
 - [Разница между Progressive Enhancement и Graceful Degradation?](#pevsgd)
@@ -219,9 +219,10 @@ element.attachShadow({ mode: 'open' }).appendChild(clone);
 ```
 
 ```
-<a name="osi"></a> 
-<h2> Что такое OSI-модель - Open Systems Interconnection</h2>  
 
+<a name="ossi"></a> 
+
+<h2> Что такое OSI-модель - Open Systems Interconnection</h2>  
   
 протокол HTTP функционирует на прикладном уровне OSI (7 уровень)  
 протокол TCP и UDP - на транспортном уровне OSI (4 уровень)  
