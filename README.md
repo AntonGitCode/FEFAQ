@@ -25,14 +25,16 @@
 **Поток** - это принцип организации элементов на странице, при отсутствии стилей - [читать](https://github.com/AntonGitCode/FEFAQ/blob/master/WebTech/README.md#potok)  
 
 **ARIA** [читать](https://github.com/AntonGitCode/FEFAQ/blob/master/General/14.md)  
-  
+   
+ [Richardson](https://github.com/AntonGitCode/FEFAQ/blob/master/WebTech/README.md#richardson)
+   
 **6 принципов REST**:  
-  - Клиент-серверная архитектура
-  - Stateless
-  - Кэширование
-  - Единообразие интерфейса
-  - Layered system
-  - Code on demand
+  - Клиент-серверная архитектура - - п добиться масштабируемости.
+  - Stateless - сервер не хранит инфу о сессии клиента
+  - Кэширование - сервер при след запросе клиента выдаст из кэша (идемпотентность)
+  - Единообразие интерфейса - Hypermedia as the Engine of Application State - одно из ограничений REST- сервер возвращает не только ресурс, но и его связи с другими ресурсами и действия, которые можно с ним совершить.
+  - Layered system - ни клиент, ни сервер не должны знать о том, как происходит цепочка вызовов дальше своих прямых соседей.
+  - Code on demand - Идея передачи некоторого исполняемого кода от сервера клиенту.
 
 <br>
 <img src="https://github.com/AntonGitCode/FEFAQ/assets/117078390/3b9051ae-c74e-4aff-8979-fb766b8260c8" alt="Image Description" width="550">  
