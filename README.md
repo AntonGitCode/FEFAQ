@@ -35,6 +35,13 @@
 
 **WebSocket** - протокол связи м-у клиент и серв, рый поз устанавливать постоянное двустороннее соединение [читать](https://github.com/AntonGitCode/FEFAQ/blob/master/WebAPI/6.md)  
 
+  **Service Workers**  поз скрипты выполнять в фоновом режиме, для PWA
+  **WebWorkers** - механзм веб-брауз, рый позв вып скрипты в отдель потоке, отличном от осн потока вып-ия веб-стр.[читать](https://github.com/AntonGitCode/FEFAQ/blob/master/WebAPI/11.md)  
+  Service Workers являются специальным типом Web Workers  
+    
+  **Идентификация Аутентификация Авторизация** [ссылка](https://github.com/AntonGitCode/FEFAQ/blob/master/WebAPI/17.md)  
+
+    
 **ARIA** [читать](https://github.com/AntonGitCode/FEFAQ/blob/master/General/14.md)  
        
 **6 принципов REST**: 
