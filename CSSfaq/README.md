@@ -1,5 +1,5 @@
 [типы input](#inputs)  
-[z-index контекст наложения](https://github.com/AntonGitCode/FEFAQ/blob/master/CSS/4.md)
+[z-index контекст наложения](https://github.com/AntonGitCode/FEFAQ/blob/master/CSS/4.md)  
 [бэм](#bemwtf)
 
 - [Что такое CSS? И для чего он используется?](#wtfcss)
