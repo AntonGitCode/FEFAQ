@@ -27,6 +27,14 @@
 **ARIA** [читать](https://github.com/AntonGitCode/FEFAQ/blob/master/General/14.md)  
 
 **Поток** - это принцип организации элементов на странице, при отсутствии стилей - [читать](https://github.com/AntonGitCode/FEFAQ/blob/master/WebTech/README.md#potok)  
+  
+**6 принципов REST**:  
+  - Клиент-серверная архитектура
+  - Stateless
+  - Кэширование
+  - Единообразие интерфейса
+  - Layered system
+  - Code on demand
 
 <br>
 <img src="https://github.com/AntonGitCode/FEFAQ/assets/117078390/3b9051ae-c74e-4aff-8979-fb766b8260c8" alt="Image Description" width="550">  
