@@ -24,9 +24,9 @@
 - [Как исправлять специфичные проблемы со стилями для разных браузеров?](https://youtu.be/70VnuTXi4Wk?t=122)
 - [Глобальные ключевые слова в CSS?](#globalcss)
 - [Что такое CSS-атрибут (`attr`)?](#attr)
-- [Что такое перечисление селекторов?](https://youtu.be/VYQl2GhbCUs?t=336)
-- [Для чего используется ключевое слово `currentColor` в CSS?](https://youtu.be/trriSYNrHw4?t=549)
-- [Какие псевдоклассы были добавлены в CSS3?](https://youtu.be/trriSYNrHw4?t=592)
+- [Что такое перечисление селекторов?](#selectors)
+- [Для чего используется ключевое слово `currentColor` в CSS?](#curcol)
+- [Какие псевдоклассы были добавлены в CSS3?](#csss)
 - [Какие фильтры есть в CSS?](https://youtu.be/trriSYNrHw4?t=662)
 - [Для чего используется псевдокласс `:invalid`?](https://youtu.be/xIGp2FCxqj0?t=370)
 - [Расскажите про свойство `display` в CSS?](https://youtu.be/xIGp2FCxqj0?t=436)
@@ -36,7 +36,7 @@
 - [Расскажите о свойстве `text-decoration-skip-ink`?](https://doka.guide/css/text-decoration-skip-ink/)
 - [Расскажите о свойстве `pointer-events`?](https://youtu.be/J6CgOSKFOlw?t=336)
 - [Расскажите о свойстве `outline`?](#outln)
-- [Расскажите о свойстве `scrollbar-gutter`?](#scrlgtr)
+- [Расскажите о свойстве `scrollbar-gutter`?](#gutter)
 - [Почему не стоит использовать краткую запись свойств CSS?](https://youtu.be/3NGkctg4lsE?t=404)
 - [Назовите псевдоэлементы для подсветки текста?](https://youtu.be/3NGkctg4lsE?t=584)
 - [Способы задания цвета в CSS?](https://youtu.be/hL5yFo9Pms4?t=384)
@@ -280,5 +280,22 @@ initial - идет как заводские настройки, далее бр
   content: attr(data-width px);
 }
 ```
+<a name="selectors"></a>  
+<h2>Что такое перечисление селекторов?</h2>  
 
+<a name="curcol"></a>
+<h2>Для чего используется ключевое слово `currentColor` в CSS?</h2>  
+  то к чему можно применить цвет делает цветом color (как бэ динамически)  
   
+```css  
+  button {
+    color: #0d47a1;
+  }
+
+svg {
+  fill: currentColor;
+}
+```
+
+<a name="csss"></a>  
+<h2>Какие псевдоклассы были добавлены в CSS3?</h2>   
