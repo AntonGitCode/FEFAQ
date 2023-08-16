@@ -30,6 +30,7 @@
   
 **History API** - DOM-объект Window предоставляет доступ к истории текущей сессии браузера через объект history - back frwd go() [читать](https://github.com/AntonGitCode/FEFAQ/blob/master/WebTech/README.md#historyApi)  
 
+WebSocket - 
 
 **ARIA** [читать](https://github.com/AntonGitCode/FEFAQ/blob/master/General/14.md)  
        
