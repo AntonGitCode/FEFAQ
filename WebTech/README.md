@@ -215,12 +215,7 @@ element.attachShadow({ mode: 'open' }).appendChild(clone);
 ```
 <a name="osi"></a> 
 <h2> Что такое OSI-модель - Open Systems Interconnection</h2>  
-  
-<img src="https://github.com/AntonGitCode/FEFAQ/assets/117078390/3b9051ae-c74e-4aff-8979-fb766b8260c8" alt="Image Description" width="550">  
 
-![image](https://github.com/AntonGitCode/FEFAQ/assets/117078390/1db5424f-8699-433b-84f2-da4a9e962cd2)  
-  
-![image](https://github.com/AntonGitCode/FEFAQ/assets/117078390/73d0e38e-a301-4905-b077-58d1293e719b)
   
 протокол HTTP функционирует на прикладном уровне OSI (7 уровень)  
 протокол TCP и UDP - на транспортном уровне OSI (4 уровень)  
@@ -228,7 +223,13 @@ element.attachShadow({ mode: 'open' }).appendChild(clone);
 протокол Ethernet и MAC адресация - на канальном уровне OSI (2 уровень)  
 провода, оптика, радиоволны, т.е. среда передачи сигнала - на физическом уровне OSI (1 уровень)  
   
-<a name="crossbr"></a>
+<img src="https://github.com/AntonGitCode/FEFAQ/assets/117078390/3b9051ae-c74e-4aff-8979-fb766b8260c8" alt="Image Description" width="550">  
+
+![image](https://github.com/AntonGitCode/FEFAQ/assets/117078390/1db5424f-8699-433b-84f2-da4a9e962cd2)  
+  
+![image](https://github.com/AntonGitCode/FEFAQ/assets/117078390/73d0e38e-a301-4905-b077-58d1293e719b)
+  
+<a name="crossbr"></a>  
 <h2>Что такое кроссбраузерность?</h2>  
 
 **Кроссбраузерность** - это корректная адаптивная верстка для правильного отображения сайта или приложения в разных браузерах и на разных устройствах. 
