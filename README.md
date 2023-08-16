@@ -24,6 +24,11 @@
 **веб-компоненты** - переисп комп ,с брауз напрямую без исп библ [читать](https://github.com/AntonGitCode/FEFAQ/blob/master/WebTech/README.md#webcomp)  
 **Поток** - это принцип организации элементов на странице, при отсутствии стилей - [читать](https://github.com/AntonGitCode/FEFAQ/blob/master/WebTech/README.md#potok)  
 
+**Web Storage API**  - механизм п веб-приложениям хранить данные на клиентской стороне [cookie, sessionStorage localStorage](https://github.com/AntonGitCode/FEFAQ/tree/master/WebTech#webstorage)  
+  
+**History API** DOM-объект Window предоставляет доступ к истории текущей сессии браузера через объект history - back frwd go() [читать](https://github.com/AntonGitCode/FEFAQ/blob/master/WebTech/README.md#historyApi)  
+
+
 **ARIA** [читать](https://github.com/AntonGitCode/FEFAQ/blob/master/General/14.md)  
    
  [Richardson](https://github.com/AntonGitCode/FEFAQ/blob/master/WebTech/README.md#richardson)
