@@ -28,11 +28,11 @@
 - [Разница между `preload`, `prefetch`, `preconnect` и `prerender`?](#prediff)
 - [Для чего нужен паттерн PRPL?](#prpl)
 - [Что такое Babel](#babel)
+   
  ```
-
-```
-<h3> Ответы </h3>
-
+ Ответы
+```  
+  
 <a name="dom"></a>
 <h2>Что такое DOM?</h2>
   
