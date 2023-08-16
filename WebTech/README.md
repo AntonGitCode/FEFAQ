@@ -3,6 +3,7 @@
 - [Что такое DOM?](#dom)
 - [Что такое прогрессивный рендеринг?](#prorender)  
 - [Что такое прогрессивный SSR?](#ssr)
+- [Разница между SSR и SSG и CSR?](#diff)
 - [Что такое Progressive Web Application (PWA)?](#pwa)
 - [Что такое кроссбраузерность?](#crossbr)
 - [Что такое OSI модель?](#osi)
@@ -93,7 +94,8 @@ SSR (**Server-Side Rendering**)
 ```
 
 ```
-
+  
+<a name="diff"></a>
 <h2>Разница между SSR и SSG и CSR?</h2> 
 
 [почитать статью](https://inverser.pro/220-csr-ssr-ssg-kakaya-raznitsa-v-renderinge-stranitsy)   
