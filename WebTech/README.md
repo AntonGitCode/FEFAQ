@@ -512,8 +512,11 @@ window.history.pushState(data, title [, url])
 **url** - URL, который должен отображаться в адресной строке.  
 
 ``` 
-window.location
+window.location.href vs history.pushState
 ```
+history.pushstate не делает новый HTTP-вызов  
+window.location.href = "url"перемещает браузер в новое место, поэтому он делает новый HTTP-запрос.  
+
   
 ![image](https://github.com/AntonGitCode/FEFAQ/assets/117078390/afc4fe0e-8850-4305-915a-40c109dab4d1)
 
