@@ -6,7 +6,8 @@
 * [Ещё CSS](CSSfaq/README.md)
 * [Web API](WebAPI/README.md)
 * [HTML](HTML/README.md)
-
+* [Вопросы по сетям](Network/README.md)
+  
 [csp](https://github.com/AntonGitCode/FEFAQ/blob/master/crp.md)   
 class, id, style, title, aria- , data-  
 options, get, head, post, put, patch, delete, trace, connect  [ниже](#httpmeth)
@@ -141,9 +142,9 @@ underfetching
 `TRACE` — возвращает запрос от клиента таким образом, что в ответе содержится информация о преобразованиях запроса на промежуточных серверах.  
 `CONNECT` — переводит текущее соединение в TCP/IP-туннель. Обычно этот метод используется для установления защищённого SSL-соединения.  
   
-<h2>HTTPS</h2>
+<h2>HTTPS flow</h2>
 
-- Вы открываете веб-сайт HTTPS, введя формат URL-адреса https:// в адресной строке браузера.
+- открываете веб-сайт HTTPS, введя формат URL-адреса https:// в адресной строке браузера.
 - Браузер пытается проверить подлинность сайта, запросив SSL-сертификат сервера.
 - В ответ сервер отправляет сертификат SSL, содержащий открытый ключ.
 - SSL-сертификат веб-сайта подтверждает личность сервера. Как только браузер удовлетворен, он использует открытый ключ для шифрования и отправки сообщения, содержащего секретный ключ сеанса
@@ -156,5 +157,4 @@ underfetching
 * [Вопросы по JavaScript](JavaScript/README.md)
 * [Вопросы по тестированию](Testing/README.md)
 * [Вопросы по производительности](Performance/README.md)
-* [Вопросы по сетям](Network/README.md)
 * [Примеры кода на JavaScript](Coding/README.md)
