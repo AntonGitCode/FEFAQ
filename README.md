@@ -1,6 +1,7 @@
 ## JS  
 
 * [Вопросы по JavaScript](JavaScript/README.md)
+* [faq js](JS/README.md)
 * [Вопросы по тестированию](Testing/README.md)
 * [Вопросы по производительности](Performance/README.md)
 * [Примеры кода на JavaScript](Coding/README.md)
