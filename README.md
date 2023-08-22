@@ -1,3 +1,10 @@
+## JS  
+
+* [Вопросы по JavaScript](JavaScript/README.md)
+* [Вопросы по тестированию](Testing/README.md)
+* [Вопросы по производительности](Performance/README.md)
+* [Примеры кода на JavaScript](Coding/README.md)
+
 ## WebCore
 
 * [Общие вопросы](General/README.md)
@@ -152,9 +159,4 @@ underfetching
 - Теперь и браузер, и веб-сервер переходят на использование одного и того же сеансового ключа для безопасного обмена сообщениями.
   
 
-## JS  
 
-* [Вопросы по JavaScript](JavaScript/README.md)
-* [Вопросы по тестированию](Testing/README.md)
-* [Вопросы по производительности](Performance/README.md)
-* [Примеры кода на JavaScript](Coding/README.md)
