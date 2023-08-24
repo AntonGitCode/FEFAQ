@@ -160,5 +160,5 @@ underfetching
 - Теперь и браузер, и веб-сервер переходят на использование одного и того же сеансового ключа для безопасного обмена сообщениями.
   
 
-![image](https://github.com/AntonGitCode/FEFAQ/assets/117078390/4ebe30e6-1275-4b37-ba3b-dd1c03425510)
+<img src="https://github.com/AntonGitCode/FEFAQ/assets/117078390/4ebe30e6-1275-4b37-ba3b-dd1c03425510" width=700>
 
