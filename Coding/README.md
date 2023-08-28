@@ -31,8 +31,24 @@ let user = {
 
 (user.sayBye = user.sayHi).bind(user)();
 ```
-
-
+  
+## сравнение двух объектов  
+  
+```javascript
+function A(){ return 'stroka'; }
+function B(){ return 'stroka'; }
+let a = new A;
+let b = new B;
+console.log(a === b);
+```
+```javascript
+function A(){ return arr; }
+function B(){ return arr; }
+let arr = [];
+let a = new A;
+let b = new B;
+console.log(a === b);
+```
 ## Примеры кода на JavaScript
 
 Вопрос: Какое значение будет у foo?
