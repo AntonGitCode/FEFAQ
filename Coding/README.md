@@ -31,6 +31,20 @@ let user = {
 
 (user.sayBye = user.sayHi).bind(user)();
 ```
+
+## prototype this.  
+  
+```  
+String.prototype.log = function() {
+  console.log(this.toString());
+};
+
+const test = {
+  toString: () => 'this test'
+}
+
+str.log call(test);
+```  
   
 ## сравнение двух объектов  
   
