@@ -73,6 +73,8 @@ Promise.resolve('3').finally(() => {
  .catch((v) => console.log('v3 ', v.message));
 
 console.log('7');
+
+//// 1 5 7  4 2 6
 ```  
   
   
