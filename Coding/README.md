@@ -8,6 +8,14 @@ let user = {
 (user.sayBye = user.sayHi)();
 ```
 
+```javascript
+let user = {
+  method() {console.log(this)}
+};
+let fun = obj.method;
+fun();
+```
+
 ## Примеры кода на JavaScript
 
 Вопрос: Какое значение будет у foo?
