@@ -23,6 +23,14 @@ function a() {
 a.call(null);
 ```
 
+```
+let user = {
+  sayHi: function() { console.log(this); }
+};
+
+(user.sayBye = user.sayHi).bind(user)();
+```
+
 ## Примеры кода на JavaScript
 
 Вопрос: Какое значение будет у foo?
