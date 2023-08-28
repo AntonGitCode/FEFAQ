@@ -20,16 +20,18 @@ fun();
 function a() {
  alert(this);
 }
+a();
 a.call(null);
 ```
 
-```
+```javascript
 let user = {
   sayHi: function() { console.log(this); }
 };
 
 (user.sayBye = user.sayHi).bind(user)();
 ```
+
 
 ## Примеры кода на JavaScript
 
