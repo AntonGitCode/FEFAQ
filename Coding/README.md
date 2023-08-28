@@ -16,6 +16,13 @@ let fun = obj.method;
 fun();
 ```
 
+```javascript
+function a() {
+ alert(this);
+}
+a.call(null);
+```
+
 ## Примеры кода на JavaScript
 
 Вопрос: Какое значение будет у foo?
