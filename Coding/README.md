@@ -1,3 +1,13 @@
+## THIS
+
+```javascript
+let user = {
+  sayHi: function() { alert(this);}
+};
+
+(user.sayBye = user.sayHi)();
+```
+
 ## Примеры кода на JavaScript
 
 Вопрос: Какое значение будет у foo?
