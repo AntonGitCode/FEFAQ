@@ -48,29 +48,29 @@ str.log call(test);
   
 ```javascript
 function test() {
-return new Promise((res) => {
- console.log('5'); 
- setTimeout(() => res(6), 1000);
-})
+  return new Promise((res) => {
+   console.log('5'); 
+   setTimeout(() => res(6), 1000);
+  })
 }
 
 console.log('1')
 
 test()
   .then(v => {
- throw new Error(v);
-})
+    throw new Error(v);
+  })
   .then((v) => {
- throw new Error(v*2);
-})
+    throw new Error(v*2);
+  })
   .finally(() => console.log('2'))
   .catch((v) => console.log('vv ', v.message));
 
 Promise.resolve('3').finally(() => { 
  throw new Error('4')
 })
-  .then((v) => console.log('v2 ', v))
-  .catch((v) => console.log('v3 ', v.message));
+ .then((v) => console.log('v2 ', v))
+ .catch((v) => console.log('v3 ', v.message));
 
 console.log('7');
 ```  
