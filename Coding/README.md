@@ -19,6 +19,7 @@ null == ''
 !+[]+[]+![]
 new Date(0) - 0
 new Date(0) + 0
+[1/Infinity] <= null
 ```  
 
 ## THIS
