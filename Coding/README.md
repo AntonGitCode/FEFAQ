@@ -11,7 +11,8 @@ true + false
 false == 'false'
 null == ''
 !!"false" == !!"true"
-[‘x’] == ‘x’
+['x'] == 'x'
+['x'] == ['x']
 [] + null + 1
 0 || "0" && {}
 [1,2,3] == [1,2,3]
