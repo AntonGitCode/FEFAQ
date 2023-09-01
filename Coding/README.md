@@ -56,6 +56,26 @@ let user = {
 let fun = obj.method;
 fun();
 ```
+  
+## this
+```javascript
+function foo(num) {
+  console.log('foo', num);
+  window.count++;
+}
+
+foo.count = 5;
+globalThis.count = 4;
+
+var i;
+for (i=0; i<10; i++) {
+  if (i>5) foo(i);
+}
+
+console.log(window.count);
+```
+
+  
 
 ```javascript
 function a() {
