@@ -40,7 +40,7 @@ null === undefined // false
 ```
 
 ## задачка  
-```
+```javascript
 for (const i in [1,2,3]) {
   try {
     console.log(i);
