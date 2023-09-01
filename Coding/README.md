@@ -38,6 +38,19 @@ null === undefined // false
 []==[] or []===[] //false
 {}=={} or {}==={}
 ```
+
+## задачка  
+```
+for (const i in [1,2,3]) {
+  try {
+    console.log(i);
+    break;
+  }
+  finally {
+    continue;
+  }
+}
+```
   
 ## THIS
 
@@ -142,6 +155,8 @@ const test = {
 
 str.log call(test);
 ```  
+
+## промис хелл
   
 ```javascript
 function test() {
