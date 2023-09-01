@@ -519,11 +519,11 @@ const addFunction = add(1100);
 // console.log(addFunction(50));
 ```
 
-<hr>
-<img src="https://github.com/AntonGitCode/FEFAQ/assets/117078390/dce617bf-b6c7-42a2-b521-ce5322f3651f" width=600>
 <hr></hr>
-<img src="https://github.com/AntonGitCode/FEFAQ/assets/117078390/c7e315b4-38ba-4017-b2ae-a89ade2e63a9" width=250>
-  
+<img src="https://github.com/AntonGitCode/FEFAQ/assets/117078390/dce617bf-b6c7-42a2-b521-ce5322f3651f" width=700>
+<hr></hr>
+<img src="https://github.com/AntonGitCode/FEFAQ/assets/117078390/c7e315b4-38ba-4017-b2ae-a89ade2e63a9" width=350>
+ <hr></hr> 
   
 
 
