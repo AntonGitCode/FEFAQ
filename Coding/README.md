@@ -325,7 +325,7 @@ user.arrowArrow()(); // undef
 
 ## еще про this
 
-```
+```javascript
 'use strict'
 const user = {
   name: 'user',
