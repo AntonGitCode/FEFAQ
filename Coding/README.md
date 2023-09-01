@@ -21,8 +21,24 @@ null == ''
 new Date(0) - 0
 new Date(0) + 0
 [1/Infinity] <= null
-```  
+```
 
+## еще на приведение типов
+
+```javascript
+0 == false   // true
+0 === false  // false
+1 == "1"    // true 
+1 === "1"    // false
+null == undefined // true
+
+null === undefined // false
+'0' == false // false //true
+'0' === false  //false
+[]==[] or []===[] //false
+{}=={} or {}==={}
+```
+  
 ## THIS
 
 ```javascript
@@ -120,6 +136,131 @@ let a = new A;
 let b = new B;
 console.log(a === b);
 ```
+## написать функцию проверяет строку на палиндром
+```
+function isPalindrom(str) {
+    const strPure = str.toLowerCase().replace(/[^a-z0-9]/gi,""); 
+    let left =0;
+    let right = strPure.length-1;
+    while (left<right) {
+      if (strPure[left]!==strPure[right]) return false;
+      left++;
+      right--;  
+    }
+    return true;
+}
+```
+
+## promise hell
+
+```javascript
+const a = setTimeout(() => console.log(2), 2000);
+const d = setTimeout(() => console.log(6), 1000);
+
+const c = new Promise( (resolve) => { 
+   setTimeout(() => resolve(), 1000);
+   console.log(4);
+});
+
+c.then(() => console.log(1));
+
+const b = setTimeout(() => console.log(5), 1000);
+
+console.log(3);
+```
+// 4 3 6 1 5 2
+
+```javascript
+setTimeout(() => console.log(3), 2000);
+console.log(4);
+
+new Promise((res, rej) => {
+    setTimeout(() => res());
+})
+    .then(() => console.log(1))
+    .catch(() => console.log(2));
+
+queueMicrotask(() => {
+    console.log(5);
+    queueMicrotask(() => {
+        requestAnimationFrame(() => {
+            console.log(8);
+        });
+        queueMicrotask(() => {
+            console.log(7);
+        });
+    });
+});
+
+requestAnimationFrame(() => {
+    console.log('raf3');
+    requestAnimationFrame(() => {
+        console.log(6);
+    });
+});
+
+console.log(9);     
+```
+
+  // 4 9 5 7 raf3 8 1 6 3  
+
+# this в функциях и в () => {} 
+
+```javascript
+'use strict'
+const user = {
+    name: 'Bob',
+    funcFunc() {
+        return function () {
+            console.log(this);
+        }
+    },
+    funcArrow() {
+        return () => {
+            console.log(this);
+        }
+    },
+    arrowFunc: () => {
+        return function () {
+            console.log(this);
+        }
+    },
+    arrowArrow: () => {
+        return () => {
+            console.log(this);
+        }
+    },
+};
+
+user.funcFunc()(); // undef
+// undefined
+user.funcArrow()(); // user
+// user
+user.arrowFunc()(); // undef
+// undefined
+user.arrowArrow()(); // undef
+// undefined
+```
+
+## на прототипы  
+
+```javascript
+var animal = { jumps: null };
+var rabbit = { jumps: true };
+
+rabbit.__proto__ = animal;
+
+console.log( rabbit.jumps ); // true
+
+
+delete rabbit.jumps;
+console.log( rabbit.jumps ); // null
+
+
+delete animal.jumps;
+console.log( rabbit.jumps); // undefined 
+```
+
 ## Примеры кода на JavaScript
 
 Вопрос: Какое значение будет у foo?
