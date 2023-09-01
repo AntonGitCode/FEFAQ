@@ -191,7 +191,21 @@ const test = {
 
 str.log call(test);
 ```  
+## промис-хелл  
+  
+```
+const firstPromise = new Promise((resolve, reject) => {
+  setTimeout(resolve, 500, 'odin');
+});
 
+const secondPromise = new Promise((resolve, reject) => {
+  setTimeout(resolve, 100, 'dva');  
+})
+
+Promise.any([firstPromise, secondPromise]).then(res=>console.log('res ', res)).catch(err=>console.log('err ', err));
+Promise.allSettled([firstPromise, secondPromise]).then(res=>console.log('res ', res)).catch(err=>console.log('err ', err));
+```
+  
 ## промис хелл
   
 ```javascript
