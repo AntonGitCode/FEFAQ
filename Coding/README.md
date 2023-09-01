@@ -24,6 +24,25 @@ output = output.slice(0, -2)
 console.log(output);
 ```
 
+## cb
+
+```javascript
+var length = 4;
+function cb(){
+  console.log(this.length);
+}
+
+const obj = {
+  length: 5,
+  method(cb) {
+    cb();
+  }
+} 
+
+obj.method(cb);
+```
+  
+
 ## приведение типов
   
 ```
