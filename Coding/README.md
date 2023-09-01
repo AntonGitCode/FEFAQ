@@ -76,6 +76,7 @@ console.log(window.count);
 ```
 
   
+## связывание  
 
 ```javascript
 function a() {
@@ -93,6 +94,41 @@ let user = {
 (user.sayBye = user.sayHi).bind(user)();
 ```
 
+## связывание еще  
+
+```javascript
+'use strict'
+var a = {
+  firstName: 'Bill',
+  lastName: 'Ivan',
+  sayName: function() {
+    console.log(this.firstName);
+  },
+  sayLastName: () => {
+    console.log(this.lastName);
+  }
+}
+
+ a.sayName();
+ // var b = a.sayName;
+ // b();
+ 
+a.sayName.bind({firstName:'Mark'})();
+a.sayName();
+
+var c = a.sayName.bind({firstName:'C-name'});
+c();
+
+a.sayName.call({firstName:'Call'});
+
+var d = a.sayName;
+d.bind({firstName:'Repeat this rule'})();
+
+a.sayName.bind({firstName: 'first node'}).bind({firstName: 'second node'})();
+
+a.sayLastName.bind({lastName:'Lasttt'})();
+```
+ 
 ## prototype this.  
   
 ```  
