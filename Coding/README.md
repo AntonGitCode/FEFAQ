@@ -242,6 +242,49 @@ user.arrowArrow()(); // undef
 // undefined
 ```
 
+## еще про this
+
+```
+'use strict'
+const user = {
+  name: 'user',
+  funcFunc() {
+     return function() {
+       console.log(this.name);
+     }
+   },
+  funcArrow() {
+    return () => { 
+      console.log(this.name);
+    }
+  },
+  arrowFunc: () => {
+    return function() {
+      console.log(this.name);
+    }
+  },
+  arrowArrow: () => {
+    return () => {
+      console.log(this.name);
+    }
+  },
+};
+
+const user2 = {
+  name: 'user2', 
+  funcFunc: user.funcFunc(), 
+  funcArrow: user.funcArrow(), 
+  arrowFunc: user.arrowFunc(), 
+  arrowArrow: user.arrowArrow(),
+}
+
+// user2.funcFunc(); //  Jim
+// user2.funcArrow(); // Bob
+// user2.arrowFunc(); // Jim
+// user2.arrowArrow();  // undef
+```
+  
+
 ## на прототипы  
 
 ```javascript
@@ -260,6 +303,31 @@ console.log( rabbit.jumps ); // null
 delete animal.jumps;
 console.log( rabbit.jumps); // undefined 
 ```
+
+## на мемоизацию
+
+```javascript  
+const add = () => {
+  const cache = {};
+  return num => {
+  if (num in cache) {
+    return `From cache: ${cache[num]}` 
+  } else {
+    const result = num + 10;
+    cache[num] = result;
+    return `Calculated: ${result}`;
+}
+};
+};
+
+const addFunction = add(1100); 
+// console.log(addFunction);
+// console.log(addFunction(10)); 
+// console.log(addFunction(1));
+// console.log(addFunction());
+// console.log(addFunction(50));
+```
+
 
 ## Примеры кода на JavaScript
 
