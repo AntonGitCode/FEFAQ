@@ -52,6 +52,16 @@ for (const i in [1,2,3]) {
 }
 ```
   
+## task  
+
+```
+var foo = {n: 1};
+var bar = foo;
+foo.x = foo = {n: 2};
+console.log(foo.x);
+console.log(bar);
+```
+
 ## THIS
 
 ```javascript
