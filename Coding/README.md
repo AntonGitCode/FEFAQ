@@ -518,6 +518,10 @@ const addFunction = add(1100);
 // console.log(addFunction());
 // console.log(addFunction(50));
 ```
+![image](https://github.com/AntonGitCode/FEFAQ/assets/117078390/dce617bf-b6c7-42a2-b521-ce5322f3651f)
+
+![image](https://github.com/AntonGitCode/FEFAQ/assets/117078390/c7e315b4-38ba-4017-b2ae-a89ade2e63a9)  
+  
 
 
 ## Примеры кода на JavaScript
