@@ -290,6 +290,33 @@ function isPalindrom(str) {
     return true;
 }
 ```
+## event loop
+
+```javascript
+console.log(1);
+
+setTimeout(()=> {
+  console.log(2);
+})
+
+requestAnimationFrame(() => {
+  console.log(6);
+})
+
+
+new Promise((res)=> {
+  console.log(3);
+  res();
+}).then(()=>{
+  console.log(5);
+  queueMicrotask(()=> {
+    console.log(7);
+  })
+}) 
+
+console.log(4);
+```
+  
 ## промисс  
   
 ```
