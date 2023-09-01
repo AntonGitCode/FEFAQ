@@ -1,3 +1,29 @@
+## количество повтоений  
+  
+```
+const input = [1, 2, 2, 2, 2, 3, 1, 1, 3, 4, 4];
+const count = {};
+
+// Подсчет количества повторений
+for (let i = 0; i < input.length; i++) {
+  const element = input[i];
+  count[element] = (count[element] || 0) + 1;
+}
+
+// Создание строки output
+let output = '';
+for (const key in count) {
+  if (count.hasOwnProperty(key)) {
+    output += `${key}:${count[key]}, `;
+  }
+}
+
+// Удаление последней запятой и пробела из строки output
+output = output.slice(0, -2)
+
+console.log(output);
+```
+
 ## приведение типов
   
 ```
