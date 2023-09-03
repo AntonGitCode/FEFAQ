@@ -7,7 +7,20 @@ const obj = {
 };
 console.log(obj + '');
 ```
+
+## понимание ключей  
   
+```
+let a = {};
+let b = { key: 'test' };
+let c = { key: 'test' };
+
+a[b] = '123';
+a[c] = '456';
+
+console.log(a);
+```
+
 ## scopes
 
 ```javascript
