@@ -10,7 +10,7 @@ console.log(obj + '');
 
 ## понимание ключей  
   
-```
+```javascript
 let a = {};
 let b = { key: 'test' };
 let c = { key: 'test' };
