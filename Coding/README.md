@@ -18,7 +18,7 @@ let c = { key: 'test' };
 a[b] = '123';
 a[c] = '456';
 
-console.log(a);
+console.log(a);  // ???
 ```
 
 ## scopes
