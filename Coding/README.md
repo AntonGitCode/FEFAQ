@@ -1,3 +1,18 @@
+##  дубликат массива  
+
+```javascript
+function duplicate(array) {
+  for (var i = 0; i < array.length; i++) {
+    array.push(array[i]);
+  }
+  return array;
+}
+
+const arr = [1, 2, 3];
+const newArr = duplicate(arr);
+console.log(newArr); // ?
+```
+  
 ## количество повторений  
   
 ```javascript  
