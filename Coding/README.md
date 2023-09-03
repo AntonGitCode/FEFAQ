@@ -1,3 +1,13 @@
+## приведение типов
+  
+```javascript
+const obj = {
+  valueOf: () => 42,
+  toString: () => 27
+};
+console.log(obj + '');
+```
+  
 ## scopes
 
 ```javascript
