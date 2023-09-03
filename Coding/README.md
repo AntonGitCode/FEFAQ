@@ -606,7 +606,17 @@ const addFunction = add(1100);
 <img src="https://github.com/AntonGitCode/FEFAQ/assets/117078390/c7e315b4-38ba-4017-b2ae-a89ade2e63a9" width=350>
  <hr></hr> 
   
+## а вот такая задачка:  
 
+```javascript
+const arr = [10, 12, 15, 21];
+for (var i = 0; i < arr.length; i++) {
+  setTimeout(function() {
+    console.log('Index: ' + i + ', element: ' + arr[i]);
+  }, 3000);
+}
+```
+  
 
 ## Примеры кода на JavaScript
 
