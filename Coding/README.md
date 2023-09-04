@@ -1,3 +1,19 @@
+## how to code flow
+
+```javascript
+let a = [1,2,3]
+console.log(a)
+let b = [...a, 6]
+console.log(b)
+
+let obj = { 
+ name: 5,
+ surname: 22,
+}
+let obj2={...obj, name: 66}
+console.log(obj2)
+```
+  
 ## most asked question about closure
 
 ```javascript
