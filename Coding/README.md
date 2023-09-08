@@ -1,4 +1,4 @@
-##  ??  ||  ??==
+##  ??  ||  ??=
 
 ```javascript
   
@@ -14,7 +14,7 @@ console.log(config({ duration: 125 })); //
 console.log(config({})); // 
 console.log(config({ speed: false })); //
 ```
-  
+<a href="https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators/Nullish_coalescing_assignment">почитать про нулиш</a>  
 
 ## [...aga] {...ugu}
 
