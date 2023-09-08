@@ -1,10 +1,14 @@
+## TS  
+  
+* [typescript](TS/typescript.md)
+  
 ## JS  
 
 * [Вопросы по JavaScript](JavaScript/README.md)
 * [faq js](JS/README.md)
 * [Вопросы по тестированию](Testing/README.md)
 * [Вопросы по производительности](Performance/README.md)
-* [Примеры кода на JavaScript](Coding/README.md)
+* [Задачки по JavaScript](Coding/README.md)
 
 ## WebCore
 
