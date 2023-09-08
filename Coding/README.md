@@ -1,6 +1,7 @@
 ##  ??  ||  ??==
 
-```
+```javascript
+  
 function config(options) {
   options.duration ??= 100;
   options.counter = options.speed || 99;
@@ -13,7 +14,7 @@ console.log(config({ duration: 125 })); //
 console.log(config({})); // 
 console.log(config({ speed: false })); //
 ```
-
+  
 
 ## [...aga] {...ugu}
 
