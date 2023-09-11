@@ -23,8 +23,12 @@ article можем сделать независимым и переисполь
 
 <h2>как подключить скрипты</h2>
 
-с помощью тега `<script>`
-
+```html
+<script>
+<link rel
+<script src="">
+```
+  
 <h2>async vs defer</h2>
 
 <h2>iframe</h2> 
