@@ -33,7 +33,21 @@ article можем сделать независимым и переисполь
 <head>
   <link rel="import" href="/path/to/imports/stuff.html">
 </head>
+```
 
+**import**  
+  
+```html
+import defaultExport from "module-name";
+import * as name from "module-name";
+import { export } from "module-name";
+import { export as alias } from "module-name";
+import { export1 , export2 } from "module-name";
+import { export1 , export2 as alias2 , […] } from "module-name";
+import defaultExport, { export [ , […] ] } from "module-name";
+import defaultExport, * as name from "module-name";
+import "module-name";
+import("/module-name.js").then(module => {…}) // Динамический импорт  
 ```
 _Примечание: браузеры игнорируют повторные запросы на один и тот же URL. Это значит, что из одного адреса будет выполнена только одна загрузка сколько бы ни было подключений на странице_  
   
