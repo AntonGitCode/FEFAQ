@@ -37,18 +37,27 @@ CSP content security policy
 ## виды инпутов  
 
 type дефолтно text
-- radio
-- checkbox
-- emal , number
-- submit: Кнопка для отправления формы
-- checked
-- pattern - прописать маску в виде регулярки
-- placeholder
+- `radio`
+- `checkbox`
+- `emal` , `number`
+- `submit`: Кнопка для отправления формы
+- `checked`
+- `pattern` - прописать маску в виде регулярки
+- `placeholder`
 
+<textarea> - многострочный инпут  
+  
 ## form  
 
 Формы в документе входят в специальную коллекцию `document.forms`  
+  
+Элементы формы 
 
+```html
+input.value = "Новое значение";  
+textarea.value = "Новый текст";  
+
+```
   
 
 
