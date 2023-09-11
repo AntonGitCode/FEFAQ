@@ -24,9 +24,10 @@ article можем сделать независимым и переисполь
 <h2>как подключить скрипты</h2>
 
 ```html
-<script>
-<link rel
 <script src="">
+<link rel="stylesheet">
+<import>
+<include>
 ```
   
 <h2>async vs defer</h2>
