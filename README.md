@@ -208,4 +208,10 @@ ReactDOM.hydrate( <App/>, document.getElementById( 'app' ) );
 — **TCP three-way handshake** - 3 сообщения   
 — **TLS-negotiations** - 5 сообщений - Transport Layer Security, ранее известный как Secure Sockets Layer (SSL) - Уровень Защищённых Соединений используется приложениями для организации защищённой передачи данных через интернет. HTTP, зашифрованный с использованием TLS, обычно называется HTTPS . Веб-трафик, зашифрованный TLS, по соглашению по умолчанию передается через порт 443, тогда как незашифрованный HTTP по умолчанию использует порт 80.  
 — TLS slow start - 14kb - и т.д. устанавливаем пропускную способность  
-— **Парсинг. Создается DOM и CSSOM**  - здесь начинаются критические шаги ренедринга.   
+— **Парсинг. Создается DOM и CSSOM**  - здесь начинаются критические шаги ренедринга. 
+— Preload scanner
+— Accessability Tree
+— Render: Render Tree дерево видимых элементов), Layout (размеры позиция - reflow), Paint (repaint), compositing  
+Остальные процессы
+
+Any script tag with type="module" is treated as a JavaScript module and is deferred by default.
