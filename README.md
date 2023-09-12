@@ -212,6 +212,7 @@ ReactDOM.hydrate( <App/>, document.getElementById( 'app' ) );
 — Preload scanner
 — Accessability Tree
 — Render: Render Tree дерево видимых элементов), Layout (размеры позиция - reflow), Paint (repaint), compositing  
-Остальные процессы
+— Остальные процессы
 
 Any script tag with type="module" is treated as a JavaScript module and is deferred by default.
+уществуют определенные свойства и элементы, которые создают экземпляр слоя, включая <video>и <canvas>, а также любой элемент, который имеет свойства CSS opacity, 3D transform, will-changeи некоторые другие.
