@@ -509,6 +509,8 @@ window.history.forward();
 window.history.go(0)  
 window.history.go()  
 window.history.pushState(data, title [, url])  
+`location.reload()` перезагружает ресурс из текущего URL подобно кнопке обновления браузера.  
+
 ```
   
 Добавляет новый элемент в историю. Метод принимает три параметра:  
@@ -521,7 +523,7 @@ window.history.pushState(data, title [, url])
   
 history.pushstate не делает новый HTTP-вызов  
 `window.location.href = ` — "url"перемещает браузер в новое место, поэтому он делает новый HTTP-запрос.     
-`window.location.assign()` — с сохранением  
+`window.location.assign(url)` — с сохранением  
 `window.location.replace()` — без сохранения в истории сеанса  
 `window.history.back forward go(-1)` - загружает  
 `window.history.pushState()` - без перезагрузки страницы   
