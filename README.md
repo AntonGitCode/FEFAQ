@@ -215,4 +215,10 @@ ReactDOM.hydrate( <App/>, document.getElementById( 'app' ) );
 — Остальные процессы
 
 Any script tag with type="module" is treated as a JavaScript module and is deferred by default.
-уществуют определенные свойства и элементы, которые создают экземпляр слоя, включая <video>и <canvas>, а также любой элемент, который имеет свойства CSS opacity, 3D transform, will-changeи некоторые другие.
+уществуют определенные свойства и элементы, которые создают экземпляр слоя, включая <video>и <canvas>, а также любой элемент, который имеет свойства CSS opacity, 3D transform, will-changeи некоторые другие.  
+
+## ХУКИ
+
+![image](https://github.com/AntonGitCode/FEFAQ/assets/117078390/f81353fd-5f90-445f-b96f-05177691f1c8)
+
+
