@@ -527,9 +527,8 @@ history.pushstate не делает новый HTTP-вызов
 `window.history.pushState()` - без перезагрузки страницы   
 `window.history.replaceState()` для добавления или изменения записей в истории браузера **без** перезагрузки страницы.   
 
-<br>
 ![image](https://github.com/AntonGitCode/FEFAQ/assets/117078390/afc4fe0e-8850-4305-915a-40c109dab4d1)
-
+  
 **history.pushstate** does not make a new HTTP call. it might attempt to load the URL later, for instance after the user restarts the browser.
 **window.location.href** = "url" navigates the browser to new location, so it does make a new http request. Note: exception is the case when you specify new url as hash fragment. Then window is just scrolled to corresponding anchor  
 
