@@ -56,7 +56,7 @@
 
 ## как динамически добавить элемент на страницу  
   
-<img src="https://github.com/AntonGitCode/FEFAQ/assets/117078390/9b491ec0-f029-4767-9252-4e3cd6d72b3b" width=500>
+<img src="https://github.com/AntonGitCode/FEFAQ/assets/117078390/9b491ec0-f029-4767-9252-4e3cd6d72b3b" width=550>
 
   
 
