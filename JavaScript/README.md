@@ -52,11 +52,11 @@
 - [Для чего используются статические члены класса?](50.md)
 - [В чем разница между async и defer?](51.md)
 
-<img src="https://github.com/AntonGitCode/FEFAQ/assets/117078390/53db0b1d-53cd-4fb4-82f3-d1258b8e28f6" width=700>  
+<img src="https://github.com/AntonGitCode/FEFAQ/assets/117078390/53db0b1d-53cd-4fb4-82f3-d1258b8e28f6" width=500>  
 
 ## как динамически добавить элемент на страницу  
   
-<img src="https://github.com/AntonGitCode/FEFAQ/assets/117078390/9b491ec0-f029-4767-9252-4e3cd6d72b3b" width=400>
+<img src="https://github.com/AntonGitCode/FEFAQ/assets/117078390/9b491ec0-f029-4767-9252-4e3cd6d72b3b" width=500>
 
   
 
