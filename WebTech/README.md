@@ -516,13 +516,18 @@ window.history.pushState(data, title [, url])
 **title** - Заголовок страницы, который отобразится в окне браузер, так же можно передавать null;  
 **url** - URL, который должен отображаться в адресной строке.  
 
-``` 
-window.location.href vs history.pushState
-```
-history.pushstate не делает новый HTTP-вызов  
-window.location.href = "url"перемещает браузер в новое место, поэтому он делает новый HTTP-запрос.  
 
+`window.location.href` vs `history.pushState`
   
+history.pushstate не делает новый HTTP-вызов  
+`window.location.href = ` — "url"перемещает браузер в новое место, поэтому он делает новый HTTP-запрос.     
+`window.location.assign()` — с сохранением  
+`window.location.replace()` — без сохранения в истории сеанса  
+`window.history.back forward go(-1)` - загружает  
+`window.history.pushState()` - без перезагрузки страницы   
+`window.history.replaceState()` для добавления или изменения записей в истории браузера **без** перезагрузки страницы.   
+
+<br>
 ![image](https://github.com/AntonGitCode/FEFAQ/assets/117078390/afc4fe0e-8850-4305-915a-40c109dab4d1)
 
 **history.pushstate** does not make a new HTTP call. it might attempt to load the URL later, for instance after the user restarts the browser.
