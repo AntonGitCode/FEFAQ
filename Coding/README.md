@@ -749,3 +749,10 @@ Promise.resolve().then(function() {
 console.log('four');
 ~~~~
 Ответ: 'one', 'four', 'three', 'two'. `setTimeout` часть основной очереди (main task queue), тогда как `Promise` в miscro task queue, которая выполняется перед основной. Поэтому сначала выведентся 'three', а потом 'two'.
+
+## модный синтаксический сахар
+  
+<img src="https://github.com/AntonGitCode/FEFAQ/assets/117078390/e0880d37-ba79-4a23-bf6d-7a4b01953e5d" width=600>  
+
+  
+
