@@ -56,7 +56,7 @@
 
 - первого порядка - не принимает ф и не возвр
 - hof  
-- унарная (или МАНАДА)
+- унарная (или МОНАДА)
 
 <img src="https://github.com/AntonGitCode/FEFAQ/assets/117078390/3e8cb0ad-0fe5-4239-9ace-d538e6006f24" width=500>  
 
