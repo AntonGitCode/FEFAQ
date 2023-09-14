@@ -59,10 +59,11 @@
 - унарная (или МАНАДА)
 
 <img src="https://github.com/AntonGitCode/FEFAQ/assets/117078390/3e8cb0ad-0fe5-4239-9ace-d538e6006f24" width=500>  
+
+## Передача значения объекта  
   
-
 <img src="https://github.com/AntonGitCode/FEFAQ/assets/117078390/53db0b1d-53cd-4fb4-82f3-d1258b8e28f6" width=500>  
-
+  
 ## как динамически добавить элемент на страницу  
   
 <img src="https://github.com/AntonGitCode/FEFAQ/assets/117078390/9b491ec0-f029-4767-9252-4e3cd6d72b3b" width=550>
